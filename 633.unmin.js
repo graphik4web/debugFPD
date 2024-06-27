@@ -12445,7 +12445,7 @@
                 let n = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : {},
                     s = 1 < arguments.length && void 0 !== arguments[1] ? arguments[1] : () => {};
                 var t;
-                n && n.url && n.url.includes(".png") ? (t = this.proxyFileServer + n.url, this.maskOptions = n, k.fabric.loadSVGFromURL(t, (t, e) => {
+                n && n.url && n.url.includes(".svg") ? (t = this.proxyFileServer + n.url, this.maskOptions = n, k.fabric.loadSVGFromURL(t, (t, e) => {
                     let i = null;
                     t && ((i = t ? k.fabric.util.groupSVGElements(t, e) : null).setOptions({
                         left: n.left ? Number(n.left) : 0,
